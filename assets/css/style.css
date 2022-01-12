@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: #000000;
   color: #fff;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: #000000;
 }
 
 #preloader:before {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1a1814;
+  border: 6px solid #000000;
   border-top-color: #ffe70d;
   border-bottom-color: #ffe70d;
   border-radius: 50%;
@@ -921,7 +921,12 @@ section {
 .specials .nav-link:hover {
   color: #ffdb0d;
 }
-.specials .nav-link.active {
+.specials .nav-link.active{
+  color: #000000;
+  background: #ffdb0d;
+  border-right: 2px solid #ffdb0d;
+}
+.specials .nav-link:hover {
   color: #000000;
   background: #ffdb0d;
   border-color: #ffdb0d;
@@ -929,7 +934,7 @@ section {
 .specials .nav-link:hover {
   border-color: #ffdb0d;
 }
-.specials .tab-pane.active {
+.specials .tab-pane:hover {
   -webkit-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
 }
@@ -1033,6 +1038,9 @@ section {
 /*--------------------------------------------------------------
 # Book A Table
 --------------------------------------------------------------*/
+.book-a-table{
+  background: black;
+}
 .book-a-table .php-email-form {
   width: 100%;
 }
@@ -1190,6 +1198,9 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+.gallery{
+  background: black;
+}
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #000000;
@@ -1279,6 +1290,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background: black;
+}
 .contact .info {
   width: 100%;
 }
