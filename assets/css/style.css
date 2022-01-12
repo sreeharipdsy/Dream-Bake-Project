@@ -173,11 +173,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #37332a;
 }
 #header .logo {
-  font-size: 28px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.432);
   transition: 0.3s;
   z-index: 999;
 }
@@ -352,14 +352,14 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1a1814;
+  color: #ffffff;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #ffdb0d;
@@ -1181,8 +1181,8 @@ section {
 --------------------------------------------------------------*/
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
+  border-right: 3px solid #000000;
+  border-bottom: 3px solid #000000;
 }
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
@@ -1276,6 +1276,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
+  color: #000000;
   background: #ffdb0d;
   display: flex;
   justify-content: center;
@@ -1340,7 +1341,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #ffdb0d;
   border-top-color: #1a1814;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1350,7 +1351,7 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: #0c0b09;
-  border-color: #625b4b;
+  border-color: #ffdb0d;
   color: white;
 }
 .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
@@ -1407,8 +1408,8 @@ section {
 }
 #footer .footer-top {
   background: #0c0b09;
-  border-top: 1px solid #37332a;
-  border-bottom: 1px solid #28251f;
+  border-top: 1px solid #ffdb0d09;
+  border-bottom: 1px solid #ffdb0d09;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -1466,7 +1467,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #cda45e;
+  color: #ffdb0d;
   font-size: 18px;
   line-height: 1;
 }
@@ -1485,7 +1486,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #cda45e;
+  color: #ffdb0d;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1511,13 +1512,13 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #cda45e;
+  background: #ffdb0d;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #d3af71;
+  background: #ffdb0d;
 }
 #footer .copyright {
   text-align: center;
