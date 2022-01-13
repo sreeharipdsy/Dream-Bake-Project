@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header.header-scrolled {
   top: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.918);
   border-bottom: 1px solid #37332a;
 }
 #header .logo {
@@ -797,14 +797,14 @@ section {
 }
 .why-us .box h4 {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 0, 0);
 }
 .why-us .box p {
-  color: #000000;
+  color: #000000c4;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1093,7 +1093,63 @@ section {
   font-size: 14px;
   background: #000000;
   border-color: #ffdb0d4f;
+  color: #a49b89;
+}
+.select-item{
+  height: 44px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: #000000;
+  border-color: #ffdb0d4f;
+  color: #a49b89;
+}
+.select-item:focus{
+  border-color: #ffdb0d;
+  background: #000000;
   color: white;
+}
+input[type="date"] {
+  position: relative;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+}
+input[type="date"]:before {
+  font-size: 20px;
+  background: none;
+  display: block;
+  font-family: 'FontAwesome';
+  content: '\f073';
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #bdbab6;
+}
+input[type="time"] {
+  position: relative;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+}
+input[type="time"]:before {
+  font-size: 20px;
+  background: none;
+  display: block;
+  font-family: 'FontAwesome';
+  content: '\f017';
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #bdbab6;
 }
 .book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
