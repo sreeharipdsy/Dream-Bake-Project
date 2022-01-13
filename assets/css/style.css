@@ -784,26 +784,27 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.01s;
-  background: #1a1814;
+  background: #ffdb0d;
 }
 .why-us .box span {
   display: block;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
-  color: #ffdb0d;
+  color: #000000;
 }
 #why-us p span{
   font-family: "Poppins", sans-serif;
 }
 .why-us .box h4 {
-  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .why-us .box p {
-  color: #aaaaaa;
+  color: #000000;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -812,10 +813,6 @@ section {
   background: #ffdb0d;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
-  color: rgb(0, 0, 0);
-}
-
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
@@ -1449,6 +1446,9 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
+.socialicons{
+  margin-bottom: 10px;
+}
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
@@ -1460,7 +1460,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #292424b7;
-  color: #fff;
+  color: #ffdb0d;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1554,4 +1554,25 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.socialTwo{
+  text-align: center;
+}
+.social-linksTwo {
+  font-size: 15px;
+  display: inline-block;
+  background: #292424b7;
+  color: #ffdb0d;
+  text-align: center;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+.social-linksTwo:hover{
+  background: #ffdb0d;
+  color: #000000;
 }
