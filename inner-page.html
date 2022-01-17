@@ -63,7 +63,7 @@
               <input type="text" class="form-control" name="address" id="address" placeholder="Address" required>
             </div>
             <div class="col-lg-4 col-md-3 col-6 form-group mt-3">
-              <select type="number" class="form-control select-item" name="product" id="product" data-rule="required">
+              <select type="number" class="form-control select-item" name="product" id="product" required>
                         <option selected="true" disabled="disabled">Select item</option>
                         <option>Plum Cake</option>
                         <option>Rich Plum</option>
@@ -77,9 +77,9 @@
               </select>
             </div>
             <div class="col-lg-4 col-md-3 col-6 form-group mt-3">
-              <select type="number" class="form-control select-item" name="quantity" id="quantity" data-rule="required">
+              <select type="number" name="quantity" class="form-control select-item" id="quantity" required>
                         <option selected="true" disabled="disabled">Quantity</option>
-                        <option value="1">1/2 kilogram</option>
+                        <option>1/2 kilogram</option>
                         <option>1 kilogram</option>
                         <option>2 kilogram</option>
               </select>
@@ -141,8 +141,7 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
